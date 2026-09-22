@@ -1,0 +1,20 @@
+{
+    "metodo": "MPE",
+    "window_size": 600,
+    "overlap": 0.5,
+    "epochs": 1500,
+    "learning_rate": 0.5,
+    "momentum_beta": 0.9,
+    "lambda_penalty": 0.0,
+    "tipo_perdida": "entropia cruzada normal",
+    "optimizador": "mGD",
+    "max_scale": 10,
+    "embedding_dim": 3,
+    "delay": 1,
+    "test_size": 0.3,
+    "carga_motor_hp": 0,
+    "fs_hz": 12000,
+    "validation_size": 0.2,
+    "division_train_validation_test": "por tiempo: 50% inicial train / 20% intermedio validation / 30% final test de cada archivo",
+    "criterio_seleccion_modelo": "Mayor F1 macro en validation"
+}

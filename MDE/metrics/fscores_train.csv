@@ -1,0 +1,4 @@
+,precision,recall,F1
+Normal,1.0,1.0,1.0
+Falla en pista interior,1.0,1.0,1.0
+macro,1.0,1.0,1.0

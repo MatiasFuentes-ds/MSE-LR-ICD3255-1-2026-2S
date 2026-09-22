@@ -1,0 +1,61 @@
+﻿+-- data
+|   +-- metadata
+|   +-- processed
+|   \-- raw
+|       \-- cwru_12k_drive_end
+|           +-- inner_race_fault
+|           |   \-- 105.mat
+|           \-- normal
+|               \-- 97.mat
++-- MDE
+|   +-- figures
+|   |   +-- pagina1.png
+|   |   +-- pagina2.png
+|   |   +-- pagina3.png
+|   |   +-- pagina4.png
+|   |   \-- pagina5.png
+|   +-- metrics
+|   |   +-- fscores_test.csv
+|   |   +-- fscores_train.csv
+|   |   +-- matriz_confusion_test.csv
+|   |   +-- matriz_confusion_train.csv
+|   |   +-- mde_coeficientes_regresion.csv
+|   |   +-- mde_convergencia_mGD.csv
+|   |   \-- resumen_modelos.csv
+|   +-- models
+|   |   +-- mejor_modelo.npz
+|   |   \-- parametros.json
+|   +-- reports
+|   |   \-- graficas_mejor_modelo_MDE.pdf
+|   +-- plot.py
+|   +-- train.py
+|   +-- tst.py
+|   \-- utility.py
++-- MPE
+|   +-- figures
+|   |   +-- pagina1.png
+|   |   +-- pagina2.png
+|   |   +-- pagina3.png
+|   |   +-- pagina4.png
+|   |   \-- pagina5.png
+|   +-- metrics
+|   |   +-- fscores_test.csv
+|   |   +-- fscores_train.csv
+|   |   +-- matriz_confusion_test.csv
+|   |   +-- matriz_confusion_train.csv
+|   |   +-- mpe_coeficientes_regresion.csv
+|   |   +-- mpe_convergencia_mGD.csv
+|   |   \-- resumen_modelos.csv
+|   +-- models
+|   |   +-- mejor_modelo.npz
+|   |   \-- parametros.json
+|   +-- reports
+|   |   \-- graficas_mejor_modelo_MPE.pdf
+|   +-- plot.py
+|   +-- train.py
+|   +-- tst.py
+|   \-- utility.py
++-- .gitignore
++-- estructura.txt
++-- inspect_mat_files.py
+\-- main.py
