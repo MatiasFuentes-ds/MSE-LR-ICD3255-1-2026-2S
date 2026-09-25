@@ -15,6 +15,6 @@
     "carga_motor_hp": 0,
     "fs_hz": 12000,
     "validation_size": 0.2,
-    "division_train_validation_test": "por tiempo: 50% inicial train / 20% intermedio validation / 30% final test de cada archivo",
+    "division_train_validation_test": "50% train / 20% validation / 30% test",
     "criterio_seleccion_modelo": "Mayor F1 macro en validation"
 }

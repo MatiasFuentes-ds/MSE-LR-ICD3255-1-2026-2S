@@ -1,6 +1,4 @@
 ﻿+-- data
-|   +-- metadata
-|   +-- processed
 |   \-- raw
 |       \-- cwru_12k_drive_end
 |           +-- inner_race_fault
@@ -58,4 +56,5 @@
 +-- .gitignore
 +-- estructura.txt
 +-- inspect_mat_files.py
-\-- main.py
++-- main.py
+\-- requirements.txt

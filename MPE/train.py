@@ -280,9 +280,7 @@ if __name__ == "__main__":
         "fs_hz": ut.FS_OBJETIVO,
         "validation_size": VALIDATION_SIZE,
         "division_train_validation_test": (
-            "por tiempo: 50% inicial train / "
-            "20% intermedio validation / "
-            "30% final test de cada archivo"
+                    "50% train / 20% validation / 30% test"
         ),
         "criterio_seleccion_modelo": "Mayor F1 macro en validation",
     }
